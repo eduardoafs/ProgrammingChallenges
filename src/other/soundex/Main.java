@@ -27,10 +27,10 @@ public class Main {
                 case 'V':
                     code=1;
                     break;
-                case'C':
+                case 'C':
                 case 'G':
                 case 'J':
-                case'K':
+                case 'K':
                 case 'Q':
                 case 'S':
                 case 'X':
