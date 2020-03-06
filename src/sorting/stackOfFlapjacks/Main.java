@@ -36,11 +36,12 @@ public class Main {
                 }
                 // now have to put the element in the last position
                 if (greaterIndex!=i) {
-                    // if the greater element is in first position, will flip in i position
+                    // if the greater element is not in first position, will flip it to the first position
                     if (greaterIndex!=0) {
                         // needs to perform 2 flips, one to put the element in first position, other to put in right position
                         flip(arr,greaterIndex); // first flip is to put element in position 0
                     }
+                    // now flip i to its position (greaterIndex is, necessarily, 0)
                     flip(arr, i); // flip to i position
                 }
             }

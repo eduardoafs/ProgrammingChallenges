@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 /**
  * UVa Problem 458 - The Decoder
  * https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=399
+ * FIXME wrong answer
  */
 public class Main {
     public static void main(String[] args) throws IOException {
