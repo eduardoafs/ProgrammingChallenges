@@ -15,7 +15,7 @@ public class Main {
 
         char c;
         while (v!=-1) {
-            c = (char) ((v>=32 && v<=126) ? (v-7) : v);
+            c = (char) ((v>=39 && v<=131) ? (v-7) : v);
             System.out.print(c);
             v = scan.read();
         }
